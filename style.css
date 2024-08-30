@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgba(12, 138, 221, 0.442);
+
+}
+
+main {
+    padding: 10px;
+}
+
+h1 {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+
+    color: rgb(28, 18, 93);
+}
+
+.container {
+    min-height: 50vh;
+    background-image: linear-gradient(90deg, rgba(135, 10, 244, 0.927), rgb(25, 22, 22));
+    max-width: 650px;
+    margin-top: 2rem;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+
+.inputbox {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    background-color: white;
+    padding: 10px;
+    margin-inline: auto;
+    margin-top: 1rem;
+
+
+}
+
+.inputbox img {
+    width: 30px;
+}
+
+.inputbox input {
+    flex-grow: 1;
+    padding: 6px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+
+
+.cityname {
+    font-size: 2rem;
+    color: rgb(222, 217, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+
+.citydetails {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.sun {
+    width: 150px;
+    margin-top: 1.5rem;
+}
+
+.cloud {
+    width: 100px;
+}
+
+.temp {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.weathers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+
+}
+
+
+;
